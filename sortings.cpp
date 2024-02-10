@@ -37,7 +37,7 @@ void selection_sort(int a[],int l) //using selction sort which take O(n^2) time
       }
       show(a,l);
 }
-void insertion_sort(int a[],int l) //using insertion sort 
+void bubble_sort(int a[],int l) //using bubble sort 
 {
   for(int i=0;i<l-1;i++)
   {
@@ -64,7 +64,7 @@ int main()
   duplicate(a,b,n);
   duplicate(a,c,n);
   selection_sort(b,n);
-  insertion_sort(c,n);
+  bubble_sort(c,n);
   show(a,n);
   return 0;
 }
